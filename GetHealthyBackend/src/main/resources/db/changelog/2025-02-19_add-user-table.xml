@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+>
+    <changeSet id="2025-02-18_add-user-table" author="simon-b64">
+        <createTable tableName="users">
+            <column name="id" type="uuid" generationType="">
+                <constraints primaryKey="true"/>
+            </column>
+            <!-- TODO[later] Maybe change varchar(255) to text since in postgres this doesn't have a performance hit. But for now with h2 as dev-db I'll leave it at varchar. -->
+            <column name="sso_id" type="varchar(255)">
+                <constraints unique="true" nullable="false" />
+            </column>
+            <column name="email" type="varchar(255)">
+                <constraints unique="true" nullable="false" />
+            </column>
+            <column name="first_name" type="varchar(100)" />
+            <column name="last_name" type="varchar(100)" />
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
