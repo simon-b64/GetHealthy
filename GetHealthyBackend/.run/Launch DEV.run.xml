@@ -3,7 +3,7 @@
     <option name="ACTIVE_PROFILES" value="dev" />
     <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <module name="GetHealthyBackend.main" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="at.simon.b64.gethealthybackend.GetHealthyBackendApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="at.simon.b64.gethealthybackend.Application" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
