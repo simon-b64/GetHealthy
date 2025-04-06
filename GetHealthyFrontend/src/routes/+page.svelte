@@ -1,12 +1,14 @@
-<script lang="ts"></script>
+<script lang="ts">
+import { Heading } from 'flowbite-svelte';
+</script>
 
 <svelte:head>
-    <title>Home</title>
-    <meta name="description" content="Svelte demo app" />
+    <title>Tracking</title>
+    <meta name="description" content="Calorie tracker" />
 </svelte:head>
 
 <section>
-    <h1>Home</h1>
+    <Heading tag="h1">Tracking</Heading>
 </section>
 
 <style>
