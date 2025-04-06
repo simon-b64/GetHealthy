@@ -21,3 +21,7 @@
 }
 
 @source "../node_modules/flowbite-svelte/dist";
+
+body {
+    background-color: var(--color-gray-900);
+}
