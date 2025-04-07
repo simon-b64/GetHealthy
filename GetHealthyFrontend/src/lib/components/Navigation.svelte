@@ -17,8 +17,8 @@
         <BottomNavItem btnName="Settings" href="/settings">
             <AdjustmentsVerticalOutline class="group-hover:text-primary-600 dark:group-hover:text-primary-500 mb-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
         </BottomNavItem>
-<!--        <BottomNavItem btnName="Profile">-->
-<!--            <UserCircleSolid class="group-hover:text-primary-600 dark:group-hover:text-primary-500 mb-1 h-6 w-6 text-gray-500 dark:text-gray-400" />-->
-<!--        </BottomNavItem>-->
+        <!--        <BottomNavItem btnName="Profile">-->
+        <!--            <UserCircleSolid class="group-hover:text-primary-600 dark:group-hover:text-primary-500 mb-1 h-6 w-6 text-gray-500 dark:text-gray-400" />-->
+        <!--        </BottomNavItem>-->
     </BottomNav>
 </nav>
